@@ -47,6 +47,7 @@ trend?
     plot(visitors, type="l")
 
 ![](Post_Live_Session_9_files/figure-markdown_strict/unnamed-chunk-1-1.png)<!-- -->
+
 Looking at the data above, there does appear to be cyclical trends every
 year. The visitors is continuously increasing and decreasing.
 
@@ -57,7 +58,9 @@ decompression
     plot(fitd)
 
 ![](Post_Live_Session_9_files/figure-markdown_strict/unnamed-chunk-2-1.png)<!-- -->
+
 C. Do the results support the graphical interpretation from part (a)?
+
 Trend shows consistent increase, seasonal shoes peaks and dips during
 seasons.
 
@@ -76,6 +79,7 @@ effect of the outlier?
     plot(visitors2, type="l")
 
 ![](Post_Live_Session_9_files/figure-markdown_strict/unnamed-chunk-4-1.png)<!-- -->
+
 Here I add 200 to the 55 visitor value to see if there is much change.
 The cyclical plot do no change but the outlier is apparent in the season
 adjusted data.
