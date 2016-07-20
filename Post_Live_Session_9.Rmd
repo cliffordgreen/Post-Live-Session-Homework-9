@@ -1,6 +1,6 @@
 ---
 title: "PSL_9 Cyclical Trends and Volatility"
-output: md_document
+output: html_document
 ---
 
 
