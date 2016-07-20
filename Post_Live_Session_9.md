@@ -49,7 +49,8 @@ trend?
 ![](Post_Live_Session_9_files/figure-markdown_strict/unnamed-chunk-1-1.png)<!-- -->
 
 Looking at the data above, there does appear to be cyclical trends every
-year. The visitors is continuously increasing and decreasing.
+year. The visitors is continuously increasing and decreasing. So we can say
+that the data is cyclical
 
 B. Calculating the trend-cycle and seasonal indices through classical
 decompression
@@ -62,7 +63,7 @@ decompression
 C. Do the results support the graphical interpretation from part (a)?
 
 Trend shows consistent increase, seasonal shoes peaks and dips during
-seasons.
+seasons. Lets see what the seasonal adj data looks like
 
 D.Compute and plot the seasonally adjusted data.
 
@@ -70,6 +71,9 @@ D.Compute and plot the seasonally adjusted data.
     plot(seasonadj, type="l")
 
 ![](Post_Live_Session_9_files/figure-markdown_strict/unnamed-chunk-3-1.png)<!-- -->
+
+This is very interesting to look at, its essentially the attendance data without
+the normal cyclical trends.
 
 E. Change one observation to be an outlier (e.g., add 500 to one
 observation), and recompute the seasonally adjusted data. What is the
