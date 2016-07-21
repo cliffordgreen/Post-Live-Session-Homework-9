@@ -180,3 +180,6 @@ Plotted all together
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
+
+
+MUCH more volitile than other stocks we observed previously
